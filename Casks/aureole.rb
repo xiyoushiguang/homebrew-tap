@@ -13,7 +13,7 @@ cask "aureole" do
   end
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Aureole.app"
 
@@ -25,7 +25,7 @@ cask "aureole" do
   ]
 
   caveats <<~EOS
-    If you installed session hooks or the status line, remove them before
-    uninstalling: Aureole → Settings → Sessions → Remove hooks.
+    Before `brew uninstall`, remove the hooks and status line Aureole added:
+    Aureole → Settings → General → Uninstall Aureole…, or Settings → Sessions → Remove hooks.
   EOS
 end
