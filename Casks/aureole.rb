@@ -1,6 +1,6 @@
 cask "aureole" do
-  version "0.7.0"
-  sha256 "7f795b634217a925c1a76741c45b5b3576eb6da9b7f4a2d9bcc7a9b2fa4a28e0"
+  version "0.7.1"
+  sha256 "6cdfd74fa16420f1185706b73420d44850b73050e0cf970b5d6c5758f789301e"
 
   url "https://github.com/xiyoushiguang/aureole/releases/download/v#{version}/Aureole-#{version}.dmg"
   name "Aureole"
